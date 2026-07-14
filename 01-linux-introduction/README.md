@@ -1,4 +1,4 @@
-# 🐧 Linux Introduction
+#  Linux Introduction
 
 > **Repository:** DevOps Linux Notes
 >
@@ -6,7 +6,7 @@
 
 ---
 
-## 📖 What is Linux?
+##  What is Linux?
 
 Linux is a free and open-source operating system built around the **Linux Kernel**. It's known for its stability, security, flexibility, and performance.
 
@@ -25,7 +25,7 @@ Today, Linux powers:
 
 ---
 
-## 🆓 What is Open Source?
+##  What is Open Source?
 
 - Open source = software **and** source code available to everyone.
 - The **Free Software Foundation** defines four core freedoms:
@@ -37,7 +37,7 @@ Today, Linux powers:
 
 ---
 
-## 🕰 Linux Origins
+##  Linux Origins
 
 - **1984** — The GNU Project and the Free Software Foundation
   - Created an open-source version of UNIX utilities.
@@ -51,7 +51,7 @@ Today, Linux powers:
 
 ---
 
-## 🎯 Why Learn Linux for DevOps?
+##  Why Learn Linux for DevOps?
 
 Most production servers run Linux — it's foundational for any DevOps role.
 
@@ -71,7 +71,7 @@ As a DevOps Engineer, you'll use Linux to:
 
 ---
 
-## 🧭 Linux Principles
+##  Linux Principles
 
 - Everything is a file (including hardware).
 - Small, single-purpose programs.
@@ -81,7 +81,7 @@ As a DevOps Engineer, you'll use Linux to:
 
 ---
 
-## ⭐ Features of Linux
+##  Features of Linux
 
 - Open Source
 - Secure
@@ -97,7 +97,7 @@ As a DevOps Engineer, you'll use Linux to:
 
 ---
 
-## 🏗 Linux Architecture
+##  Linux Architecture
 
 ```
 +----------------------+
@@ -137,7 +137,7 @@ Multiple users can interact with applications like compilers, editors (`vi`), an
 
 ---
 
-## 📦 Linux Distributions (Distros)
+##  Linux Distributions (Distros)
 
 A **distro** is an OS built using the Linux kernel plus additional software and package management tools.
 
@@ -174,7 +174,7 @@ From a user's point of view there isn't much difference — both are archive fil
 
 ---
 
-## 🖥 Command Line Interface (CLI)
+##  Command Line Interface (CLI)
 
 Linux can be operated via GUI or CLI. In DevOps, almost all work happens in the **CLI** — it's faster, scriptable, and essential for managing remote servers.
 
@@ -187,7 +187,7 @@ mkdir DevOps
 
 ---
 
-## 📂 Linux File System
+##  Linux File System
 
 Linux follows a hierarchical directory structure, starting from `/` (root).
 
@@ -226,7 +226,7 @@ Linux follows a hierarchical directory structure, starting from `/` (root).
 
 ---
 
-## 🔐 Advantages of Linux
+##  Advantages of Linux
 
 - Free to use
 - Highly secure
@@ -237,7 +237,7 @@ Linux follows a hierarchical directory structure, starting from `/` (root).
 
 ---
 
-## 🌍 Where is Linux Used?
+##  Where is Linux Used?
 
 - AWS EC2
 - Microsoft Azure
@@ -251,7 +251,7 @@ Linux follows a hierarchical directory structure, starting from `/` (root).
 
 ---
 
-## 🆚 Linux vs Windows
+##  Linux vs Windows
 
 | Linux | Windows |
 |---|---|
@@ -264,7 +264,7 @@ Linux follows a hierarchical directory structure, starting from `/` (root).
 
 ---
 
-## 📝 Key Terms
+##  Key Terms
 
 | Term | Description |
 |---|---|
@@ -277,7 +277,7 @@ Linux follows a hierarchical directory structure, starting from `/` (root).
 
 ---
 
-## 💼 Real-World DevOps Example
+##  Real-World DevOps Example
 
 Imagine a company hosting a web application. A DevOps Engineer may use Linux to:
 
@@ -295,7 +295,7 @@ Without Linux knowledge, performing these tasks would be difficult.
 
 ---
 
-## 📚 Topics Covered in This Repository
+##  Topics Covered in This Repository
 
 - [x] Linux Introduction
 - [ ] Basic Commands
@@ -320,7 +320,7 @@ Without Linux knowledge, performing these tasks would be difficult.
 
 ---
 
-## 📌 Key Takeaways
+##  Key Takeaways
 
 - Linux is an open-source operating system built around the Linux Kernel.
 - The kernel is the core, handling process, memory, file system, device, and network management.
@@ -331,7 +331,7 @@ Without Linux knowledge, performing these tasks would be difficult.
 
 ---
 
-## 📖 References
+##  References
 
 - Linux Documentation: https://docs.kernel.org/
 - Ubuntu Documentation: https://ubuntu.com/server/docs
