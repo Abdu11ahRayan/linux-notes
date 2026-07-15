@@ -1,4 +1,4 @@
-# 💻 Basic Commands
+#  Basic Commands
 
 > **Repository:** DevOps Linux Notes — Section 2
 >
@@ -6,13 +6,13 @@
 
 ---
 
-## 📌 Open Terminal
+##  Open Terminal
 
 The terminal is where all the action happens. On Ubuntu: `Ctrl + Alt + T`, or search "Terminal" in the app menu.
 
 ---
 
-## 📍 Know Where You Are — `pwd`
+##  Know Where You Are — `pwd`
 
 `pwd` (Print Working Directory) shows your current location in the filesystem.
 
@@ -23,7 +23,7 @@ abdullah@DevOps:~$ pwd
 
 ---
 
-## 📁 Create a Directory — `mkdir`
+##  Create a Directory — `mkdir`
 
 ```bash
 abdullah@DevOps:~$ mkdir linux-practices
@@ -31,7 +31,7 @@ abdullah@DevOps:~$ mkdir linux-practices
 
 ---
 
-## 🚶 Change Directory — `cd`
+##  Change Directory — `cd`
 
 ```bash
 abdullah@DevOps:~$ cd linux-practices/
@@ -40,7 +40,7 @@ abdullah@DevOps:~/linux-practices$
 
 ---
 
-## 📃 List Files — `ls`
+##  List Files — `ls`
 
 ```bash
 abdullah@DevOps:~/linux-practices$ mkdir vpdir
@@ -67,7 +67,7 @@ devopsdir  testdir  vpdir
 
 ---
 
-## 📄 Create Empty Files — `touch`
+##  Create Empty Files — `touch`
 
 ```bash
 abdullah@DevOps:~/linux-practices$ touch file2 file3 file4
@@ -77,7 +77,7 @@ devopsdir  file1  file2  file3  file4  testdir  vpdir
 
 ---
 
-## 🧭 Absolute Path vs Relative Path
+##  Absolute Path vs Relative Path
 
 **What is a path?**
 A unique location of a file or folder in the filesystem — a combination of `/` and alphanumeric characters.
@@ -115,7 +115,7 @@ ansible  aws
 
 ---
 
-## 📋 Copying Files & Directories — `cp`
+##  Copying Files & Directories — `cp`
 
 **Copy a file into a directory:**
 
@@ -143,7 +143,7 @@ abdullah@DevOps:~/linux-practices$ cp -rvfp testdir/ vpdir/
 
 ---
 
-## 🚚 Moving / Renaming — `mv`
+##  Moving / Renaming — `mv`
 
 `mv` moves files or directories, and is also used to rename them.
 
@@ -154,7 +154,7 @@ abdullah@DevOps:~/linux-practices$ mv file3 file4 vpdir/
 
 ---
 
-## 🗑 Removing Files & Directories — `rm`
+##  Removing Files & Directories — `rm`
 
 ```bash
 abdullah@DevOps:~/linux-practices$ rm file1
@@ -170,7 +170,7 @@ abdullah@DevOps:~/linux-practices$ rm -rf testdir/
 
 ---
 
-## 🔗 Types of Files in Linux
+##  Types of Files in Linux
 
 | File Type | First Char in Listing | Description |
 |---|---|---|
@@ -193,7 +193,7 @@ lrwxrwxrwx 1 abdullah abdullah 9 Apr 2 18:41 logdir -> /var/log/
 
 ---
 
-## 🧾 Quick Reference
+##  Quick Reference
 
 | Command | Purpose |
 |---|---|
@@ -212,7 +212,7 @@ lrwxrwxrwx 1 abdullah abdullah 9 Apr 2 18:41 logdir -> /var/log/
 
 ---
 
-## 📌 Key Takeaways
+##  Key Takeaways
 
 - `pwd`, `cd`, `ls`, `mkdir`, `touch` are the daily-driver navigation/creation commands.
 - Absolute paths always start with `/`; relative paths are resolved from `pwd`.
@@ -222,7 +222,7 @@ lrwxrwxrwx 1 abdullah abdullah 9 Apr 2 18:41 logdir -> /var/log/
 
 ---
 
-## 📚 Topics Covered in This Repository
+##  Topics Covered in This Repository
 
 - [x] Linux Introduction
 - [x] Basic Commands
