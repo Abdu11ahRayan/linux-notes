@@ -1,4 +1,4 @@
-# 🔍 Filters & I/O Redirection
+#  Filters & I/O Redirection
 
 > **Repository:** DevOps Linux Notes — Section 4
 >
@@ -6,7 +6,7 @@
 
 ---
 
-## 🔎 grep
+##  grep
 
 `grep` searches for a text pattern inside a file (or any text input).
 
@@ -50,7 +50,7 @@ grep -v root /etc/passwd
 
 ---
 
-## 📖 Filter Commands
+##  Filter Commands
 
 ### `less` — page through a file
 
@@ -97,7 +97,7 @@ ktuser:x:501:501::/home/ktuser:/bin/bash
 
 ---
 
-## ✂️ cut — extract fields from text
+##  cut — extract fields from text
 
 ```bash
 # cut -d <delimiter> -f <field> filename
@@ -123,7 +123,7 @@ cut -d " " -f1 filename
 
 ---
 
-## 🔁 sed — stream editor (search & replace)
+##  sed — stream editor (search & replace)
 
 `sed` searches for a word in a file and replaces it in the **output** — it does **not** modify the original file unless told to.
 
@@ -142,7 +142,7 @@ Note the original file is unchanged after `sed` — the replaced output only app
 
 ---
 
-## ➡️ I/O Redirection
+##  I/O Redirection
 
 Redirection copies the **output** of a command into a file instead of printing it to the screen.
 
@@ -197,7 +197,7 @@ abdullah@DevOps:~/linux-practices$ tail /etc/passwd >> newtools.txt
 
 ---
 
-## 🔗 Piping
+##  Piping
 
 Piping (`|`) feeds the **output of the command on the left** as **input to the command on the right** — chaining programs together instead of writing to intermediate files.
 
@@ -216,7 +216,7 @@ root:x:0:0:root:/root:/bin/bash
 
 ---
 
-## 🕵️ find
+##  find
 
 `find` locates files or directories by name, type, owner, group, and more — similar to Windows Search.
 
@@ -237,7 +237,7 @@ abdullah@DevOps:~/linux-practices$ find /home/abdullah/ -name newtools.txt
 
 ---
 
-## 🧾 Quick Reference
+##  Quick Reference
 
 | Command | Purpose |
 |---|---|
@@ -259,7 +259,7 @@ abdullah@DevOps:~/linux-practices$ find /home/abdullah/ -name newtools.txt
 
 ---
 
-## 📌 Key Takeaways
+##  Key Takeaways
 
 - `grep` is the workhorse for searching text — combine with `-i` and `-v` for flexible matching.
 - `head`/`tail` give you quick peeks at big files; `tail -f` is essential for live log monitoring.
@@ -270,7 +270,7 @@ abdullah@DevOps:~/linux-practices$ find /home/abdullah/ -name newtools.txt
 
 ---
 
-## 📚 Topics Covered in This Repository
+##  Topics Covered in This Repository
 
 - [x] Linux Introduction
 - [x] Basic Commands
