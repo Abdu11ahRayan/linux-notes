@@ -1,4 +1,4 @@
-# 👤 Users & Groups
+#  Users & Groups
 
 > **Repository:** DevOps Linux Notes — Section 5
 >
@@ -6,7 +6,7 @@
 
 ---
 
-## 📖 Users — Key Points
+##  Users — Key Points
 
 - Users and groups control access to files and resources.
 - Users log in by supplying a username and password.
@@ -20,7 +20,7 @@
 
 ---
 
-## 🧑‍🤝‍🧑 Types of Users
+##  Types of Users
 
 | Type | Example | User ID (UID) | Group ID (GID) | Home Dir | Shell |
 |---|---|---|---|---|---|
@@ -42,7 +42,7 @@ In Linux there are three types of users:
 
 ---
 
-## 📄 The `/etc/passwd` File
+##  The `/etc/passwd` File
 
 ```bash
 [root@ktlinux ~]# head /etc/passwd
@@ -64,7 +64,7 @@ Fields (colon-separated):
 
 ---
 
-## 👥 The `/etc/group` File
+##  The `/etc/group` File
 
 Stores group information — one entry per line.
 
@@ -81,7 +81,7 @@ daemon:x:2:
 
 ---
 
-## 🔐 The `/etc/shadow` File
+##  The `/etc/shadow` File
 
 Stores users' encrypted passwords and password-aging info. Same one-line-per-entry format as `/etc/passwd`.
 
@@ -104,7 +104,7 @@ daemon:*:18353:0:99999:7:::
 
 ---
 
-## ➕ Add User, Set Password & Switch User
+##  Add User, Set Password & Switch User
 
 ```bash
 [abdullah@localhost ~]$ sudo useradd sam
@@ -123,7 +123,7 @@ uid=1002(sam) gid=1003(sam) groups=1003(sam)
 
 ---
 
-## ➕ Add User, Group & Add User Into Group
+##  Add User, Group & Add User Into Group
 
 ```bash
 [root@localhost ~]# useradd devops
@@ -146,7 +146,7 @@ uid=1001(devops) gid=1001(devops) groups=1001(devops),1002(opsadmin)
 
 ---
 
-## ➖ Delete User & Group
+##  Delete User & Group
 
 ```bash
 [abdullah@localhost ~]$ sudo userdel -r sam
@@ -159,7 +159,7 @@ id: sam: no such user
 
 ---
 
-## 🧾 User & Group Cheatsheet
+##  User & Group Cheatsheet
 
 | Command | Description |
 |---|---|
@@ -179,7 +179,7 @@ id: sam: no such user
 
 ---
 
-## 📌 Key Takeaways
+##  Key Takeaways
 
 - Every user has a UID, every group has a GID, and both are recorded in `/etc/passwd` and `/etc/group`.
 - Passwords never live in `/etc/passwd` — they're encrypted in `/etc/shadow`.
@@ -189,7 +189,7 @@ id: sam: no such user
 
 ---
 
-## 📚 Topics Covered in This Repository
+##  Topics Covered in This Repository
 
 - [x] Linux Introduction
 - [x] Basic Commands
