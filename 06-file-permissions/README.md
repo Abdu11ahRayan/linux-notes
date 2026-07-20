@@ -1,4 +1,4 @@
-# 🔒 File Permissions
+#  File Permissions
 
 > **Repository:** DevOps Linux Notes — Section 6
 >
@@ -6,7 +6,7 @@
 
 ---
 
-## 👀 Viewing Permissions — `ls -l`
+##  Viewing Permissions — `ls -l`
 
 ```bash
 $ ls -l /bin/login
@@ -32,7 +32,7 @@ The permission string breaks down into **3 groups of 3**:
 
 ---
 
-## 👑 Changing File Ownership — `chown` / `chgrp`
+##  Changing File Ownership — `chown` / `chgrp`
 
 - Only **root** can change a file's owner.
 - Only **root or the current owner** can change a file's group.
@@ -70,7 +70,7 @@ chown: changing ownership of 'vpdir/devopsdir': Operation not permitted
 
 ---
 
-## ✏️ Changing Permissions — Symbolic Method
+##  Changing Permissions — Symbolic Method
 
 ```bash
 chmod [-OPTION]... mode[,mode] file|directory ...
@@ -97,7 +97,7 @@ chmod o-wx dir         # Deny write and execute to others for `dir`
 
 ---
 
-## 🔢 Changing Permissions — Numeric Method
+##  Changing Permissions — Numeric Method
 
 Uses a three-digit mode number:
 
@@ -146,7 +146,7 @@ abdullah@DevOps:~/linux-practices$ ls -l newtools.txt
 
 ---
 
-## 🧮 Common Numeric Modes Cheat Sheet
+##  Common Numeric Modes Cheat Sheet
 
 | Mode | Meaning | Typical Use |
 |---|---|---|
@@ -173,7 +173,7 @@ abdullah@DevOps:~/linux-practices$ ls -l newtools.txt
 
 ---
 
-## 📌 Key Takeaways
+##  Key Takeaways
 
 - `ls -l` shows permissions as 3 sets of `rwx` — owner, group, other.
 - Only root can change a file's owner; root or the owner can change its group.
@@ -183,7 +183,7 @@ abdullah@DevOps:~/linux-practices$ ls -l newtools.txt
 
 ---
 
-## 📚 Topics Covered in This Repository
+##  Topics Covered in This Repository
 
 - [x] Linux Introduction
 - [x] Basic Commands
